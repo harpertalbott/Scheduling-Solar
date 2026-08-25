@@ -2,7 +2,7 @@
 
 A desktop application that predicts the total duration of a residential solar panel installation using a multiple linear regression model trained on real job data.
 
-Built by Harper Talbott.
+Built by Harper Talbott, modeled on real solar panel installation data.
 
 ## What it does
 
