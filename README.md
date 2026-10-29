@@ -8,7 +8,7 @@ Built by Harper Talbott, modeled on real solar panel installation data.
 
 Given a few job parameters, the app predicts how many labor hours the installation will take. Drive time is entered separately and added to the prediction at runtime.
 
-**Model performance:** Cross-validated R² ≈ 0.54 (5-fold, averaged over 10 random seeds) — the model explains roughly 54% of variance in install duration. The remaining variance reflects factors not captured in the data, such as crew experience and site complexity.
+**Model performance:** Cross-validated R² ≈ 0.50 (mean of 50 fold scores: 5-fold CV repeated over 10 random seeds), and a typical out-of-sample error of ~12.9 hours, about 34% below a naive model that predicts the average job. The interaction term adds about +0.04 R² over the same model without it. The remaining variance reflects factors not captured in the data, such as crew experience and site complexity.
 
 **Features used:**
 - Panel quantity

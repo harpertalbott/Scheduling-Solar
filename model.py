@@ -25,7 +25,7 @@ def train_model_and_generate_equation():
     Load training data, encode categorical features, and fit a linear regression model.
 
     Trains on the full dataset (no train/test split) for maximum data utilization
-    in production. Cross-validated R² ≈ 0.54 on held-out folds.
+    in production. Cross-validated R² ≈ 0.50 (mean of 50 fold scores, 5-fold x 10 seeds).
 
     Returns:
         model (LinearRegression): Fitted model.
